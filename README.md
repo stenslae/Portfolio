@@ -116,9 +116,7 @@ Here are some additional projects that showcase various other skills, including 
 ## Education
 
 - **Bachelor of Science in Electrical Engineering**  
-  -_Montana State Univerity, Bozeman_
-  -_Expected December 2026_
-  -_Relevant coursework:_ Data Structures and Algorithms, Logic Design, Microprocesses HW and SW.
+  _Montana State Univerity - Bozeman_, _Expected December 2026_
 
 ---
 
