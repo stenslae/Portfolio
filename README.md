@@ -37,13 +37,15 @@ Below is an overview of my projects, organized by category. Feel free to explore
 
 These projects highlight my skills in embedded systems design.
 
-#### Project 1: [Project Name]
-- **Description**: 
-- **Technologies**: [Technologies used, e.g., Java, C++]
+#### Project 1: Drill Press Control
+- **Description**: Interface a stepper motor with a microcontroller.
+- **Technologies**: C, CSS, MSP-EXP430FR2355, Stepper Motor, Analog Discovery 2
 - **Key Features**:
-  - Feature 1
-  - Feature 2
-- **Link**: [GitHub Repository](https://github.com/stenslae/NoiseFilteringDemo)
+  - Actuates a motor using GPIO/Timers
+  - Monitors and ADC pressure sensor simulation and compares to a threshold
+  - Reads an RTC (I2C)
+  - Reports to the user interface (UART)
+- **Link**: [GitHub Repository](https://github.com/stenslae/DrillPressControl)
 
 ---
 
@@ -83,16 +85,17 @@ In this section, you’ll find my projects that focus on project involing automa
 
 ### Data Structures and Algorithms Projects
 
-These projects showcase my experience in building websites and web applications, including frontend and backend development.
+These projects showcase my experience in data structures.
 
-#### Project 1: [Project Name]
-- **Description**: [Overview of the project’s purpose and key functionalities]
-- **Technologies**: [Technologies used, e.g., React, Node.js, Express]
-- **Key Features**:
-  - User authentication
-  - Dynamic content generation
+#### Project 1: Uno
+- **Description**: Uses the stack data structure to emulate a game of uno.
+- **Technologies**: Java
+- **Link**: [GitHub Repository](https://github.com/stenslae/UnoGame)
+
+#### Project 2: Maze Solver
+- **Description**: Uses recursion to solve mazes.
+- **Technologies**: Java
 - **Link**: [GitHub Repository](https://github.com/yourusername/project-name)
-- **Live Demo**: [Link to live demo or website, if available]
 
 ---
 
@@ -124,4 +127,4 @@ Here are some additional projects that showcase various other skills, including 
 
 Feel free to reach out to me for collaboration, opportunities, or questions about my projects.
 
-- **Email**: [your.email@example.com](mailto:emma@stensland.com)
+- **Email**: [emma@stensland.com](mailto:emma@stensland.com)
