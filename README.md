@@ -49,16 +49,35 @@ These projects highlight my skills in embedded systems design.
 
 ### Data Collection Projects
 
-In this section, you’ll find my projects that focus on data structures and algorithms.
+In this section, you’ll find my projects that focus on project involing data collection, preprocessing, and processing.
 
-#### Project 1: [Project Name]
-- **Description**: [Overview of the dataset, goals, and insights generated]
-- **Technologies**: [Technologies used, e.g., Python, Pandas, Scikit-Learn]
+- #### Project 1: Battery Pack Testing
+- **Description**: This program processes continuous data readings from a battery pack to calculate its total watt-hours. It reads data from a sensor and stores it in a .csv file for further analysis. The program performs essential calculations, preparing the data for post-processing in tools like Google Sheets.
+- **Technologies**: C++, LabJack T7, CMake, LJM
 - **Key Features**:
-  - Data preprocessing
-  - Model training and evaluation
-- **Link**: [GitHub Repository](https://github.com/yourusername/project-name)
+  - Reads continuous data and calculates total watt-hours.
+  - Outputs data to a .csv file for easy integration with external tools.
+  - Prepares data for post-processing in Google Sheets.
+- **Link**: [GitHub Repository](https://github.com/stenslae/Lua_NoiseReduction)
 - **Demo**: [Link to Jupyter Notebook or other demo, if available]
+
+#### Project 2: Analog Input Noise Reduction
+- **Description**: A Lua script that performs noise reduction on analog input readings from a LabJack T7 by applying a rolling average and threshold method. The script filters out extreme readings, removing 25% of the highest and lowest values to clean the data using user RAM, read intervals, and arrays.
+- **Technologies**: Lua, LabJack T7
+- **Key Features**:
+  - Interval reads
+  - Reading user RAM
+  - Noise filtering
+- **Link**: [GitHub Repository](https://github.com/stenslae/Lua_NoiseReduction)
+- **Full Writeup**: [LabJack Website](https://support.labjack.com/docs/mb7569-maxbotix-ultrasonic-sensor-app-note)
+- 
+#### Project 3: Shipping Status Checker
+- **Description**: A Python script that checks the shipping status of Amazon orders in the last 6 months by scraping the shipping information from an Amazon profile. The program processes a .csv file containing order details, updates it with the current status, and makes it easy to track multiple orders at once.
+- **Technologies**: Python, Pandas, Numpy, Selenium
+- **Key Features**:
+  - Scrapes Amazon order status and updates a .csv file.
+  - Automates status tracking for efficiency.
+- **Link**: [GitHub Repository](https://github.com/stenslae/Python_ShippingStatusChecker)
 
 ---
 
@@ -93,7 +112,7 @@ Here are some additional projects that showcase various other skills, including 
 
 ## Education
 
-- **Expected December, 2026: B.S. in Electrical Engineering**  
+- **Bachelor of Science in Electrical Engineering**  
   Montana State Univerity, Bozeman
   Expected December 2026 
   Relevant coursework: Data Structures and Algorithms, Logic Design, Microprocesses HW and SW.
