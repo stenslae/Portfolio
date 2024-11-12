@@ -62,7 +62,7 @@ In this section, you’ll find my projects that focus on data structures and alg
 
 ---
 
-### Data Structure and Algorithms Projects
+### Data Structures and Algorithms Projects
 
 These projects showcase my experience in building websites and web applications, including frontend and backend development.
 
