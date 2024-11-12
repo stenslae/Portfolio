@@ -1,6 +1,6 @@
 # Emma Stensland's Portfolio
 
-Welcome to my GitHub portfolio! Here, you’ll find a variety of projects organized by type, showcasing my skills in Embedded Systems and Data Structures.
+Welcome to my GitHub portfolio! Here, you’ll find a variety of projects organized by type, showcasing my skills in Embedded Systems, Data Collection, Data Structure and Algorithm Projects, and Other Projects.
 
 ---
 
@@ -9,7 +9,9 @@ Welcome to my GitHub portfolio! Here, you’ll find a variety of projects organi
 - [About Me](#about-me)
 - [Project Categories](#project-categories)
   - [Embedded Systems](#embedded-systems-projects)
-  - [Data Structures](#data-structures-and-algorithms-projects)
+  - [Data Collection](#data-collection-projects)
+  - [Data Structures and Algorithms](#data-structures-and-algorithms-projects)
+  - [Other](#other-projects)
 - [Skills](#skills)
 - [Education](#education)
 - [Contact](#contact)
@@ -45,7 +47,7 @@ These projects highlight my skills in embedded systems design.
 
 ---
 
-### Data Structures and Algorithms Projects
+### Data Collection Projects
 
 In this section, you’ll find my projects that focus on data structures and algorithms.
 
@@ -60,7 +62,7 @@ In this section, you’ll find my projects that focus on data structures and alg
 
 ---
 
-### Web Development Projects
+### Data Structure and Algorithms Projects
 
 These projects showcase my experience in building websites and web applications, including frontend and backend development.
 
