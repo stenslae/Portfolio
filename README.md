@@ -60,7 +60,7 @@ In this section, you’ll find my projects that focus on project involing automa
   - Reads continuous data and calculates total watt-hours.
   - Outputs data to a .csv file for easy integration with external tools.
   - Prepares data for post-processing in Google Sheets.
-- **Link**: [GitHub Repository](https://github.com/stenslae/Lua_NoiseReduction)
+- **Link**: [GitHub Repository](https://github.com/stenslae/BatteryPackTesting)
 
 #### Project 2: Analog Input Noise Reduction
 - **Description**: A Lua script that performs noise reduction on analog input readings from a LabJack T7 by applying a rolling average and threshold method. The script filters out extreme readings, removing 25% of the highest and lowest values to clean the data using user RAM, read intervals, and arrays.
@@ -94,7 +94,7 @@ These projects showcase my experience in data structures.
 #### Project 2: Maze Solver
 - **Description**: Uses recursion to solve mazes.
 - **Technologies**: Java
-- **Link**: [GitHub Repository](https://github.com/yourusername/project-name)
+- **Link**: [GitHub Repository](https://github.com/stenslae/MazeSolver)
 
 ---
 
