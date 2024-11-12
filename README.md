@@ -12,8 +12,6 @@ Welcome to my GitHub portfolio! Here, you’ll find a variety of projects organi
   - [Data Collection](#data-collection-projects)
   - [Data Structures and Algorithms](#data-structures-and-algorithms-projects)
   - [Other](#other-projects)
-- [Skills](#skills)
-- [Education](#education)
 - [Contact](#contact)
 
 ---
@@ -113,15 +111,8 @@ Here are some additional projects that showcase various other skills, including 
 
 ---
 
-## Education
-
-- **Bachelor of Science in Electrical Engineering**  
-  _Montana State Univerity - Bozeman_, _Expected December 2026_
-
----
-
 ## Contact
 
-Feel free to reach out to me for collaboration, opportunities, or questions about my projects.
+Feel free to reach out to me for opportunities or questions about my projects.
 
 - **Email**: [emma@stensland.com](mailto:emma@stensland.com)
