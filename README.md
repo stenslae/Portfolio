@@ -53,7 +53,7 @@ These projects highlight my skills in embedded systems design.
 
 In this section, you’ll find my projects that focus on project involing automation and data collection/processing.
 
-- #### Project 1: Battery Pack Testing
+#### Project 1: Battery Pack Testing
 - **Description**: This program processes continuous data readings from a battery pack to calculate its total watt-hours. It reads data from a sensor and stores it in a .csv file for further analysis. The program performs essential calculations, preparing the data for post-processing in tools like Google Sheets.
 - **Technologies**: C++, LabJack T7, CMake, LJM
 - **Key Features**:
