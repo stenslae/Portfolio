@@ -8,8 +8,8 @@ Welcome to my GitHub portfolio! Here, you’ll find a variety of projects organi
 
 - [About Me](#about-me)
 - [Project Categories](#project-categories)
-  - [Embedded Systems](#embedded-systems)
-  - [Data Structures](#data-structures)
+  - [Embedded Systems](#embedded-systems-projects)
+  - [Data Structures](#data-structures-and-algorithms-projects)
 - [Skills](#skills)
 - [Education](#education)
 - [Contact](#contact)
