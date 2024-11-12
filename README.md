@@ -61,7 +61,6 @@ In this section, you’ll find my projects that focus on project involing automa
   - Outputs data to a .csv file for easy integration with external tools.
   - Prepares data for post-processing in Google Sheets.
 - **Link**: [GitHub Repository](https://github.com/stenslae/Lua_NoiseReduction)
-- **Demo**: [Link to Jupyter Notebook or other demo, if available]
 
 #### Project 2: Analog Input Noise Reduction
 - **Description**: A Lua script that performs noise reduction on analog input readings from a LabJack T7 by applying a rolling average and threshold method. The script filters out extreme readings, removing 25% of the highest and lowest values to clean the data using user RAM, read intervals, and arrays.
