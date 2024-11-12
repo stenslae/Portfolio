@@ -38,18 +38,18 @@ Below is an overview of my projects, organized by category. Feel free to explore
 These projects highlight my skills in embedded systems design.
 
 #### Project 1: [Project Name]
-- **Description**: [Brief overview of what this project does and why it was built]
+- **Description**: 
 - **Technologies**: [Technologies used, e.g., Java, C++]
 - **Key Features**:
   - Feature 1
   - Feature 2
-- **Link**: [GitHub Repository](https://github.com/yourusername/project-name)
+- **Link**: [GitHub Repository](https://github.com/stenslae/NoiseFilteringDemo)
 
 ---
 
 ### Data Collection Projects
 
-In this section, you’ll find my projects that focus on project involing data collection, preprocessing, and processing.
+In this section, you’ll find my projects that focus on project involing automation and data collection/processing.
 
 - #### Project 1: Battery Pack Testing
 - **Description**: This program processes continuous data readings from a battery pack to calculate its total watt-hours. It reads data from a sensor and stores it in a .csv file for further analysis. The program performs essential calculations, preparing the data for post-processing in tools like Google Sheets.
@@ -70,7 +70,7 @@ In this section, you’ll find my projects that focus on project involing data c
   - Noise filtering
 - **Link**: [GitHub Repository](https://github.com/stenslae/Lua_NoiseReduction)
 - **Full Writeup**: [LabJack Website](https://support.labjack.com/docs/mb7569-maxbotix-ultrasonic-sensor-app-note)
-- 
+
 #### Project 3: Shipping Status Checker
 - **Description**: A Python script that checks the shipping status of Amazon orders in the last 6 months by scraping the shipping information from an Amazon profile. The program processes a .csv file containing order details, updates it with the current status, and makes it easy to track multiple orders at once.
 - **Technologies**: Python, Pandas, Numpy, Selenium
@@ -100,13 +100,14 @@ These projects showcase my experience in building websites and web applications,
 
 Here are some additional projects that showcase various other skills, including scripting, automation, and smaller coding challenges.
 
-#### Project 1: [Project Name]
-- **Description**: [Overview of what this project does]
-- **Technologies**: [Technologies used, e.g., Bash scripting, Python]
+#### Project 1: Noise Filtering Demo
+- **Description**: This is a program that demonstrates the filtering capabilities of a LabJack T7-Pro by comparing raw data, data with an increased resolution index, averaged data, and thresholded and averaged data.
+- **Technologies**: LabVIEW V7.1, Lua, LabJack T7-Pro, Maxbotix Ultrasonic MB7569 Ultrasonic Sensor
 - **Key Features**:
-  - Automation of tasks
-  - Efficiency improvements
-- **Link**: [GitHub Repository](https://github.com/yourusername/project-name)
+  - Read intervals
+  - Noise filtering programs and comparisons
+- **Link**: [GitHub Repository](https://github.com/stenslae/NoiseFilteringDemo)
+- **Full Writeup**: [LabJack Website](https://support.labjack.com/docs/mb7569-maxbotix-ultrasonic-sensor-app-note)
 
 ---
 
