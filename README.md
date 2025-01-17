@@ -20,9 +20,6 @@ Welcome to my GitHub portfolio! Here, you’ll find a variety of projects organi
 
 I’m Emma Stensland, an enthusiastic Electrical Engineering student with a passion for making an impact. I love working on diverse projects and exploring different areas of technology.
 
-- 🌱 Currently learning: Linux, Markdown, SQL, Cybersecurity Basics
-- 💼 Seeking opportunities in: Embedded Systems, Cybersecurity
-
 ---
 
 ## Project Categories
