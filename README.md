@@ -57,17 +57,7 @@ In this section, you’ll find my projects that focus on project involing automa
   - Prepares data for post-processing in Google Sheets.
 - **Link**: [GitHub Repository](https://github.com/stenslae/BatteryPackTesting)
 
-#### Project 2: Analog Input Noise Reduction
-- **Description**: A Lua script that performs noise reduction on analog input readings from a LabJack T7 by applying a rolling average and threshold method. The script filters out extreme readings, removing 25% of the highest and lowest values to clean the data using user RAM, read intervals, and arrays.
-- **Technologies**: Lua, LabJack T7
-- **Key Features**:
-  - Interval reads
-  - Reading user RAM
-  - Noise filtering
-- **Link**: [GitHub Repository](https://github.com/stenslae/Lua_NoiseReduction)
-- **Full Writeup**: [LabJack Website](https://support.labjack.com/docs/mb7569-maxbotix-ultrasonic-sensor-app-note)
-
-#### Project 3: Shipping Status Checker
+#### Project 2: Shipping Status Checker
 - **Description**: A Python script that checks the shipping status of Amazon orders in the last 6 months by scraping the shipping information from an Amazon profile. The program processes a .csv file containing order details, updates it with the current status, and makes it easy to track multiple orders at once.
 - **Technologies**: Python, Pandas, Numpy, Selenium
 - **Key Features**:
@@ -81,12 +71,7 @@ In this section, you’ll find my projects that focus on project involing automa
 
 These projects showcase my experience in data structures.
 
-#### Project 1: Uno
-- **Description**: Uses the stack data structure to emulate a game of uno.
-- **Technologies**: Java
-- **Link**: [GitHub Repository](https://github.com/stenslae/UnoGame)
-
-#### Project 2: Maze Solver
+#### Project 1: Maze Solver
 - **Description**: Uses recursion to solve mazes.
 - **Technologies**: Java
 - **Link**: [GitHub Repository](https://github.com/stenslae/MazeSolver)
