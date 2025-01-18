@@ -65,6 +65,15 @@ In this section, you’ll find my projects that focus on project involing automa
   - Automates status tracking for efficiency.
 - **Link**: [GitHub Repository](https://github.com/stenslae/Python_ShippingStatusChecker)
 
+#### Project 3: Noise Filtering Demo
+- **Description**: This is a program that demonstrates the filtering capabilities of a LabJack T7-Pro by comparing raw data, data with an increased resolution index, averaged data, and thresholded and averaged data.
+- **Technologies**: LabVIEW V7.1, Lua, LabJack T7-Pro, Maxbotix Ultrasonic MB7569 Ultrasonic Sensor
+- **Key Features**:
+  - Read intervals
+  - Noise filtering programs and comparisons
+- **Link**: [GitHub Repository](https://github.com/stenslae/NoiseFilteringDemo)
+- **Full Writeup**: [LabJack Website](https://support.labjack.com/docs/mb7569-maxbotix-ultrasonic-sensor-app-note)
+
 ---
 
 ### Data Structures and Algorithms Projects
@@ -81,15 +90,6 @@ These projects showcase my experience in data structures.
 ### Other Projects
 
 Here are some additional projects that showcase various other skills, including scripting, automation, and smaller coding challenges.
-
-#### Project 1: Noise Filtering Demo
-- **Description**: This is a program that demonstrates the filtering capabilities of a LabJack T7-Pro by comparing raw data, data with an increased resolution index, averaged data, and thresholded and averaged data.
-- **Technologies**: LabVIEW V7.1, Lua, LabJack T7-Pro, Maxbotix Ultrasonic MB7569 Ultrasonic Sensor
-- **Key Features**:
-  - Read intervals
-  - Noise filtering programs and comparisons
-- **Link**: [GitHub Repository](https://github.com/stenslae/NoiseFilteringDemo)
-- **Full Writeup**: [LabJack Website](https://support.labjack.com/docs/mb7569-maxbotix-ultrasonic-sensor-app-note)
 
 ---
 
