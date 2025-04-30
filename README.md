@@ -9,7 +9,9 @@ Welcome to my GitHub portfolio! Here, you’ll find a variety of projects organi
 - [About Me](#about-me)
 - [Project Categories](#project-categories)
   - [Embedded Systems](#embedded-systems-projects)
+  - [FPGAs](#fpgas-projects)
   - [Data Collection](#data-collection-projects)
+  - [Circuit Designs](#circuit-designs)
   - [Data Structures and Algorithms](#data-structures-and-algorithms-projects)
   - [Other](#other-projects)
 - [Contact](#contact)
@@ -18,7 +20,7 @@ Welcome to my GitHub portfolio! Here, you’ll find a variety of projects organi
 
 ## About Me
 
-I’m Emma Stensland, an enthusiastic Electrical Engineering student with a passion for making an impact. I love working on diverse projects and exploring different areas of technology.
+I’m Emma Stensland, an Electrical Engineering student with a passion for making an impact. I love working on diverse projects and exploring different areas of technology.
 
 ---
 
@@ -44,9 +46,23 @@ These projects highlight my skills in embedded systems design.
 
 ---
 
+
+### FPGAs Projects
+
+These projects highlight my skills in logic design.
+
+#### Project 1: 8-Bit Microcomputer
+- **Description**: Simulate and implement an 8-bit microcomputer onto an FPGA.
+- **Technologies**: 
+- **Key Features**:
+  - 
+- **Link**: [GitHub Repository]()
+
+---
+
 ### Data Collection Projects
 
-In this section, you’ll find my projects that focus on project involing automation and data collection/processing.
+In this section, you’ll find my projects that focus on project involving automation and data collection/processing.
 
 #### Project 1: Battery Pack Testing
 - **Description**: This program processes continuous data readings from a battery pack to calculate its total watt-hours. It reads data from a sensor and stores it in a .csv file for further analysis. The program performs essential calculations, preparing the data for post-processing in tools like Google Sheets.
@@ -73,6 +89,26 @@ In this section, you’ll find my projects that focus on project involing automa
   - Noise filtering programs and comparisons
 - **Link**: [GitHub Repository](https://github.com/stenslae/NoiseFilteringDemo)
 - **Full Writeup**: [LabJack Website](https://support.labjack.com/docs/mb7569-maxbotix-ultrasonic-sensor-app-note)
+
+---
+
+### Circuit Designs
+
+These projects highlight my skills in circuit design when given a desired circuit performance.
+
+#### Project 1: Regulator Deisgn
+- **Description**: 
+- **Technologies**: 
+- **Key Features**:
+  - 
+- **Link**: [GitHub Repository]()
+
+#### Project 2: BJT Design
+- **Description**: Simulate and implement an 8-bit microcomputer onto an FPGA.
+- **Technologies**: 
+- **Key Features**:
+  - 
+- **Link**: [GitHub Repository]()
 
 ---
 
