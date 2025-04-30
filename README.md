@@ -55,14 +55,14 @@ These projects highlight my skills in logic design.
 - **Description**: Simulate and implement an 8-bit microcomputer onto an FPGA.
 - **Technologies**: 
 - **Key Features**:
-  - 
-- **Link**: [GitHub Repository]()
+  - Lorem
+- **Link**: [GitHub Repository](https://github.com/stenslae/DrillPressControl)
 
 ---
 
 ### Data Collection Projects
 
-In this section, you’ll find my projects that focus on project involving automation and data collection/processing.
+In this section, you’ll find my projects that focus on automation and data collection/processing.
 
 #### Project 1: Battery Pack Testing
 - **Description**: This program processes continuous data readings from a battery pack to calculate its total watt-hours. It reads data from a sensor and stores it in a .csv file for further analysis. The program performs essential calculations, preparing the data for post-processing in tools like Google Sheets.
@@ -100,15 +100,15 @@ These projects highlight my skills in circuit design when given a desired circui
 - **Description**: 
 - **Technologies**: 
 - **Key Features**:
-  - 
-- **Link**: [GitHub Repository]()
+  - Lorem
+- **Link**: [GitHub Repository](https://github.com/stenslae/DrillPressControl)
 
 #### Project 2: BJT Design
 - **Description**: Simulate and implement an 8-bit microcomputer onto an FPGA.
 - **Technologies**: 
 - **Key Features**:
-  - 
-- **Link**: [GitHub Repository]()
+  - Lorem
+- **Link**: [GitHub Repository](https://github.com/stenslae/DrillPressControl)
 
 ---
 
