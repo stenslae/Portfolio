@@ -39,7 +39,7 @@ These projects highlight my skills in embedded systems design.
 - **Technologies**: C, CSS, MSP-EXP430FR2355, Stepper Motor, Analog Discovery 2
 - **Key Features**:
   - Actuates a motor using GPIO/Timers
-  - Monitors and ADC pressure sensor simulation and compares to a threshold
+  - Monitors an ADC pressure sensor simulation and compares to a threshold
   - Reads an RTC (I2C)
   - Reports to the user interface (UART)
 - **Link**: [GitHub Repository](https://github.com/stenslae/DrillPressControl)
@@ -52,7 +52,7 @@ These projects highlight my skills in embedded systems design.
 These projects highlight my skills in logic design.
 
 #### Project 1: 8-Bit Microcomputer
-- **Description**: Simulate and implement an 8-bit microcomputer with onto an FPGA.
+- **Description**: Simulate and implement an 8-bit microcomputer onto an FPGA.
 - **Technologies**: DE10-Lite FPGA Board with the MAX 10 10M50DAF484C7G Device, VHDL, ModelSim, Quartus
 - **Key Features**:
     - Custom ALU supporting basic arithmetic and logic operations
@@ -99,7 +99,7 @@ In this section, you’ll find my projects that focus on automation and data col
 
 These projects highlight my skills in circuit design when given a desired circuit performance.
 
-#### Project 1: Regulator Deisgn
+#### Project 1: Regulator Design
 - **Description**: Designed and analyzed a voltage regulator circuit to maintain a constant DC output across varying loads and input voltages, applying small-signal analysis and SPICE simulations.
 - **Technologies**: LTspice, Manual Circuit Analysis, Oscilloscope, Digital Multimeter
 - **Key Features**: 
