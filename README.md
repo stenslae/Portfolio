@@ -100,18 +100,20 @@ In this section, you’ll find my projects that focus on automation and data col
 These projects highlight my skills in circuit design when given a desired circuit performance.
 
 #### Project 1: Regulator Deisgn
-- **Description**: 
-- **Technologies**: 
-- **Key Features**:
-  - Lorem
-- **Link**: [GitHub Repository](https://github.com/stenslae/DrillPressControl)
+- **Description**: Designed and analyzed a voltage regulator circuit to maintain a constant DC output across varying loads and input voltages, applying small-signal analysis and SPICE simulations.
+- **Technologies**: LTspice, Manual Circuit Analysis, Oscilloscope, Digital Multimeter
+- **Key Features**: 
+  - Simulated performance in LTspice 
+  - Built circuit and measured component values to meet target performance
+- **Link**: [Full Writeup](https://github.com/stenslae/Portfolio/blob/main/Project_Files/317_regulator_design_problem_stensland.pdf)
 
 #### Project 2: BJT Design
-- **Description**: Simulate and implement an 8-bit microcomputer onto an FPGA.
-- **Technologies**: 
+- **Description**: Designed and analyzed a single-stage amplifier using a Bipolar Junction Transistor (BJTs)
+- **Technologies**: LTspice, Manual Circuit Analysis, Oscilloscope
 - **Key Features**:
-  - Lorem
-- **Link**: [GitHub Repository](https://github.com/stenslae/DrillPressControl)
+  - Frequency response analysis including cutoff frequencies 
+  - Verified design through simulation and in-lab measurements
+- **Link**: [Full Writeup](https://github.com/stenslae/Portfolio/blob/main/Project_Files/design2_report_stensland%20(2).pdf)
 
 ---
 
