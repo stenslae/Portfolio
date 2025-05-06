@@ -52,11 +52,14 @@ These projects highlight my skills in embedded systems design.
 These projects highlight my skills in logic design.
 
 #### Project 1: 8-Bit Microcomputer
-- **Description**: Simulate and implement an 8-bit microcomputer onto an FPGA.
-- **Technologies**: 
+- **Description**: Simulate and implement an 8-bit microcomputer with onto an FPGA.
+- **Technologies**: DE10-Lite FPGA Board with the MAX 10 10M50DAF484C7G Device, VHDL, ModelSim, Quartus
 - **Key Features**:
-  - Lorem
-- **Link**: [GitHub Repository](https://github.com/stenslae/DrillPressControl)
+    - Custom ALU supporting basic arithmetic and logic operations
+    - 8-bit instruction set with control unit and program counter
+    - RAM and ROM modules and memory-mapped I/O
+    - Asynchronous reset and clock management logic
+- **Link**: [GitHub Repository](https://github.com/stenslae/8_Bit_Microcomputer)
 
 ---
 
