@@ -126,6 +126,21 @@ These projects showcase my experience in data structures.
 - **Technologies**: Java
 - **Link**: [GitHub Repository](https://github.com/stenslae/MazeSolver)
 
+#### Project 2: Animal Identification Tree
+- **Description**: Uses the tree data structure to identify animals based on traits.
+- **Technologies**: Java
+- **Link**: [GitHub Repository](https://github.com/stenslae/AnimalIdentification)
+
+#### Project 3: Movie Actors Graph
+- **Description**: Uses the graph data structure to identify the shortest path between actors.
+- **Technologies**: Java
+- **Link**: [GitHub Repository](https://github.com/stenslae/MovieActors)
+
+#### Project 4: Spell Checker
+- **Description**: Uses hash tables and dynamic programming to spell check user input.
+- **Technologies**: Java
+- **Link**: [GitHub Repository](https://github.com/stenslae/SpellCheck)
+
 ---
 
 ### Other Projects
