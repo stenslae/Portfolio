@@ -1,6 +1,6 @@
 # Emma Stensland's Portfolio
 
-Welcome to my GitHub! I'm Emma, an Electrical Engineering student with a love for problem-solving and building things that work. Here, you'll find a variety of projects.
+Welcome to my GitHub! I'm Emma, an Electrical Engineering student with a love for problem-solving. Here, you'll find a variety of my favorite projects that I have done.
 
 ---
 
@@ -53,13 +53,6 @@ Take a look at the types of projects I’ve worked on so far:
   - CSV export of voltage data
   - Automated energy calculation (Wh, mAh)
 
-#### 📦 [Shipping Status Checker](https://github.com/stenslae/Python_ShippingStatusChecker)
-- Scrapes Amazon shipping statuses to keep track of past orders.
-- **Technologies**: Python, Selenium, Pandas
-- **Key Features**:
-  - Auto-updates order CSV files
-  - Efficient multi-order tracking
-
 #### 📉 [Noise Filtering Demo](https://github.com/stenslae/NoiseFilteringDemo)
 - Demonstrates filtering techniques using a LabJack T7-Pro.
 - **Technologies**: LabVIEW, Lua, MB7569 Ultrasonic Sensor
@@ -89,10 +82,6 @@ Take a look at the types of projects I’ve worked on so far:
 ---
 
 ### 🌳 Data Structures and Algorithms Projects
-
-#### 🧭 [Maze Solver](https://github.com/stenslae/MazeSolver)
-- Solves mazes using recursion.
-- **Technologies**: Java
 
 #### 🐾 [Animal Identifier Tree](https://github.com/stenslae/AnimalIdentification)
 - Uses tree structures to guess animals based on traits.
