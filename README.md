@@ -1,156 +1,119 @@
 # Emma Stensland's Portfolio
 
-Welcome to my GitHub portfolio! Here, you’ll find a variety of projects organized by type, showcasing my skills in Embedded Systems, Data Collection, Data Structure and Algorithm Projects, and Other Projects.
+Welcome to my GitHub! I'm Emma, an Electrical Engineering student with a love for problem-solving and building things that work. Here, you'll find a variety of projects.
 
 ---
 
-## Table of Contents
+## 📚 Table of Contents
 
-- [About Me](#about-me)
-- [Project Categories](#project-categories)
-  - [Embedded Systems](#embedded-systems-projects)
-  - [FPGAs](#fpgas-projects)
-  - [Data Collection](#data-collection-projects)
-  - [Circuit Designs](#circuit-designs)
-  - [Data Structures and Algorithms](#data-structures-and-algorithms-projects)
-  - [Other](#other-projects)
-- [Contact](#contact)
-
----
-
-## About Me
-
-I’m Emma Stensland, an Electrical Engineering student with a passion for making an impact. I love working on diverse projects and exploring different areas of technology.
+- [📁 Project Categories](#-project-categories)
+  - [🧠 Embedded Systems](#-embedded-systems-projects)
+  - [🔲 FPGAs](#-fpgas-projects)
+  - [📊 Data Collection](#-data-collection-projects)
+  - [🔌 Circuit Designs](#-circuit-designs)
+  - [🌳 Data Structures & Algorithms](#-data-structures-and-algorithms-projects)
+  - [🧰 Other Projects](#-other-projects)
+- [📬 Contact](#-contact)
 
 ---
 
-## Project Categories
-
-Below is an overview of my projects, organized by category. Feel free to explore the different sections based on your interest!
+## 📁 Project Categories
+Take a look at the types of projects I’ve worked on so far:
 
 ---
 
-### Embedded Systems Projects
-
-These projects highlight my skills in embedded systems design.
-
-#### Project 1: Drill Press Control
-- **Description**: Interface a stepper motor with a microcontroller.
-- **Technologies**: C, CSS, MSP-EXP430FR2355, Stepper Motor, Analog Discovery 2
+### 🧠 Embedded Systems Projects
+#### 🛠️ [Drill Press Control](https://github.com/stenslae/DrillPressControl)
+- Interfaces a stepper motor with a microcontroller for pressure-aware drilling.
+- **Technologies**: C, MSP430, ADC, UART, I2C, Real-Time Clock
 - **Key Features**:
-  - Actuates a motor using GPIO/Timers
-  - Monitors an ADC pressure sensor simulation and compares to a threshold
-  - Reads an RTC (I2C)
-  - Reports to the user interface (UART)
-- **Link**: [GitHub Repository](https://github.com/stenslae/DrillPressControl)
+  - Motor actuation
+  - Pressure monitoring with threshold detection
+  - Real-time logging via UART
+  - Rolling average filtering and safety alarms
 
 ---
 
-
-### FPGAs Projects
-
-These projects highlight my skills in logic design.
-
-#### Project 1: 8-Bit Microcomputer
-- **Description**: Simulate and implement an 8-bit microcomputer onto an FPGA.
-- **Technologies**: DE10-Lite FPGA Board with the MAX 10 10M50DAF484C7G Device, VHDL, ModelSim, Quartus
+### 🔲 FPGAs Projects
+#### 🧮 [8-Bit Microcomputer](https://github.com/stenslae/8_Bit_Microcomputer)
+- Simulated and implemented a simple 8-bit computer.
+- **Technologies**: VHDL, ModelSim, Quartus, DE10-Lite FPGA
 - **Key Features**:
-    - Custom ALU supporting basic arithmetic and logic operations
-    - 8-bit instruction set with control unit and program counter
-    - RAM and ROM modules and memory-mapped I/O
-    - Asynchronous reset and clock management logic
-- **Link**: [GitHub Repository](https://github.com/stenslae/8_Bit_Microcomputer)
+  - Custom ALU and instruction set
+  - RAM/ROM and I/O control
+  - Clock/reset logic
 
 ---
 
-### Data Collection Projects
-
-In this section, you’ll find my projects that focus on automation and data collection/processing.
-
-#### Project 1: Battery Pack Testing
-- **Description**: This program processes continuous data readings from a battery pack to calculate its total watt-hours. It reads data from a sensor and stores it in a .csv file for further analysis. The program performs essential calculations, preparing the data for post-processing in tools like Google Sheets.
-- **Technologies**: C++, LabJack T7, CMake, LJM
+### 📊 Data Collection Projects
+#### 🔋 [Battery Pack Testing](https://github.com/stenslae/BatteryPackTesting)
+- Monitors voltage drop across a load to compute battery capacity.
+- **Technologies**: C++, LabJack T7, CSV output, LJM, VS Code
 - **Key Features**:
-  - Reads continuous data and calculates total watt-hours.
-  - Outputs data to a .csv file for easy integration with external tools.
-  - Prepares data for post-processing in Google Sheets.
-- **Link**: [GitHub Repository](https://github.com/stenslae/BatteryPackTesting)
+  - CSV export of voltage data
+  - Automated energy calculation (Wh, mAh)
 
-#### Project 2: Shipping Status Checker
-- **Description**: A Python script that checks the shipping status of Amazon orders in the last 6 months by scraping the shipping information from an Amazon profile. The program processes a .csv file containing order details, updates it with the current status, and makes it easy to track multiple orders at once.
-- **Technologies**: Python, Pandas, Numpy, Selenium
+#### 📦 [Shipping Status Checker](https://github.com/stenslae/Python_ShippingStatusChecker)
+- Scrapes Amazon shipping statuses to keep track of past orders.
+- **Technologies**: Python, Selenium, Pandas
 - **Key Features**:
-  - Scrapes Amazon order status and updates a .csv file.
-  - Automates status tracking for efficiency.
-- **Link**: [GitHub Repository](https://github.com/stenslae/Python_ShippingStatusChecker)
+  - Auto-updates order CSV files
+  - Efficient multi-order tracking
 
-#### Project 3: Noise Filtering Demo
-- **Description**: This is a program that demonstrates the filtering capabilities of a LabJack T7-Pro by comparing raw data, data with an increased resolution index, averaged data, and thresholded and averaged data.
-- **Technologies**: LabVIEW V7.1, Lua, LabJack T7-Pro, Maxbotix Ultrasonic MB7569 Ultrasonic Sensor
+#### 📉 [Noise Filtering Demo](https://github.com/stenslae/NoiseFilteringDemo)
+- Demonstrates filtering techniques using a LabJack T7-Pro.
+- **Technologies**: LabVIEW, Lua, MB7569 Ultrasonic Sensor
 - **Key Features**:
-  - Read intervals
-  - Noise filtering programs and comparisons
-- **Link**: [GitHub Repository](https://github.com/stenslae/NoiseFilteringDemo)
-- **Full Writeup**: [LabJack Website](https://support.labjack.com/docs/mb7569-maxbotix-ultrasonic-sensor-app-note)
+  - Compare raw vs filtered vs thresholded data
+  - Real-time read intervals  
+- 📝 [Full Writeup](https://support.labjack.com/docs/mb7569-maxbotix-ultrasonic-sensor-app-note)
 
 ---
 
-### Circuit Designs
+### 🔌 Circuit Designs
 
-These projects highlight my skills in circuit design when given a desired circuit performance.
-
-#### Project 1: Regulator Design
-- **Description**: Designed and analyzed a voltage regulator circuit to maintain a constant DC output across varying loads and input voltages, applying small-signal analysis and SPICE simulations.
-- **Technologies**: LTspice, Manual Circuit Analysis, Oscilloscope, Digital Multimeter
-- **Key Features**: 
-  - Simulated performance in LTspice 
-  - Built circuit and measured component values to meet target performance
-- **Link**: [Full Writeup](https://github.com/stenslae/Portfolio/blob/main/Project_Files/317_regulator_design_problem_stensland.pdf)
-
-#### Project 2: BJT Design
-- **Description**: Designed and analyzed a single-stage amplifier using a Bipolar Junction Transistor (BJTs)
-- **Technologies**: LTspice, Manual Circuit Analysis, Oscilloscope
+#### 🔧 [Voltage Regulator Design](https://github.com/stenslae/Portfolio/blob/main/Project_Files/317_regulator_design_problem_stensland.pdf)
+- Built and analyzed a DC voltage regulator.
+- **Technologies**: LTspice, Oscilloscope, DMM
 - **Key Features**:
-  - Frequency response analysis including cutoff frequencies 
-  - Verified design through simulation and in-lab measurements
-- **Link**: [Full Writeup](https://github.com/stenslae/Portfolio/blob/main/Project_Files/design2_report_stensland%20(2).pdf)
+  - Simulations and real-world measurements
+  - Response to varying loads
+
+#### 📡 [BJT Amplifier Design](https://github.com/stenslae/Portfolio/blob/main/Project_Files/design2_report_stensland%20(2).pdf)
+- Designed a single-stage amplifier using BJT transistors.
+- **Technologies**: LTspice, Circuit Analysis, Oscilloscope
+- **Key Features**:
+  - Frequency response
+  - Simulation-to-lab verification
 
 ---
 
-### Data Structures and Algorithms Projects
+### 🌳 Data Structures and Algorithms Projects
 
-These projects showcase my experience in data structures.
-
-#### Project 1: Maze Solver
-- **Description**: Uses recursion to solve mazes.
+#### 🧭 [Maze Solver](https://github.com/stenslae/MazeSolver)
+- Solves mazes using recursion.
 - **Technologies**: Java
-- **Link**: [GitHub Repository](https://github.com/stenslae/MazeSolver)
 
-#### Project 2: Animal Identification Tree
-- **Description**: Uses the tree data structure to identify animals based on traits.
+#### 🐾 [Animal Identifier Tree](https://github.com/stenslae/AnimalIdentification)
+- Uses tree structures to guess animals based on traits.
 - **Technologies**: Java
-- **Link**: [GitHub Repository](https://github.com/stenslae/AnimalIdentification)
 
-#### Project 3: Movie Actors Graph
-- **Description**: Uses the graph data structure to identify the shortest path between actors.
+#### 🎬 [Movie Actor Graph](https://github.com/stenslae/MovieActors)
+- Finds shortest path between actors using graphs.
 - **Technologies**: Java
-- **Link**: [GitHub Repository](https://github.com/stenslae/MovieActors)
 
-#### Project 4: Spell Checker
-- **Description**: Uses hash tables and dynamic programming to spell check user input.
-- **Technologies**: Java
-- **Link**: [GitHub Repository](https://github.com/stenslae/SpellCheck)
+#### ✍️ [Spell Checker](https://github.com/stenslae/SpellCheck)
+- Identifies misspelled words and suggests corrections.
+- **Technologies**: Java, Dynamic Programming, Hash Tables
 
 ---
 
-### Other Projects
-
-Here are some additional projects that showcase various other skills, including scripting, automation, and smaller coding challenges.
+### 🧰 Other Projects
+Various side projects and scripts that don't quite fit in the other buckets but are fun and useful!
 
 ---
 
-## Contact
+## 📬 Contact
+Feel free to reach out to me for opportunities or questions about my projects:
 
-Feel free to reach out to me for opportunities or questions about my projects.
-
-- **Email**: [emma@stensland.com](mailto:emma@stensland.com)
+- 📧 **Email**: [emma@stensland.com](mailto:emma@stensland.com)
