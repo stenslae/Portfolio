@@ -8,10 +8,9 @@ Welcome to my GitHub! I'm Emma, an Electrical Engineering student with a love fo
 
 - [📁 Project Categories](#-project-categories)
   - [🧠 Embedded Systems](#-embedded-systems-projects)
-  - [🔲 FPGAs](#-fpgas-projects)
+  - [💖 FPGAs](#-fpgas-projects)
   - [📊 Data Collection](#-data-collection-projects)
   - [🔌 Circuit Designs](#-circuit-designs)
-  - [🌳 Data Structures & Algorithms](#-data-structures-and-algorithms-projects)
   - [🧰 Other Projects](#-other-projects)
 - [📬 Contact](#-contact)
 
@@ -23,6 +22,7 @@ Take a look at the types of projects I’ve worked on so far:
 ---
 
 ### 🧠 Embedded Systems Projects
+
 #### 🛠️ [Drill Press Control](https://github.com/stenslae/DrillPressControl)
 - Interfaces a stepper motor with a microcontroller for pressure-aware drilling.
 - **Technologies**: C, MSP430, ADC, UART, I2C, Real-Time Clock
@@ -34,7 +34,8 @@ Take a look at the types of projects I’ve worked on so far:
 
 ---
 
-### 🔲 FPGAs Projects
+### 💖 FPGAs Projects
+
 #### 🧮 [8-Bit Microcomputer](https://github.com/stenslae/8_Bit_Microcomputer)
 - Simulated and implemented a simple 8-bit computer.
 - **Technologies**: VHDL, ModelSim, Quartus, DE10-Lite FPGA
@@ -46,6 +47,7 @@ Take a look at the types of projects I’ve worked on so far:
 ---
 
 ### 📊 Data Collection Projects
+
 #### 🔋 [Battery Pack Testing](https://github.com/stenslae/BatteryPackTesting)
 - Monitors voltage drop across a load to compute battery capacity.
 - **Technologies**: C++, LabJack T7, CSV output, LJM, VS Code
@@ -65,6 +67,13 @@ Take a look at the types of projects I’ve worked on so far:
 
 ### 🔌 Circuit Designs
 
+#### ☢️ [SSD Test Board](https://github.com/stenslae/SSDTestBoard)
+- Designed and assembled a PCB to process signals from a W1 Silicon Strip Detector. Used to characterize the detector.
+- **Technologies**: Altium, Analog Circuit Design, Soldering, LaTeX
+- **Key Features**:
+  - Analog filtering and electrical shielding
+  - 3 Input Channels with preamplifiers and gaussian shapers
+
 #### 🔧 [Voltage Regulator Design](https://github.com/stenslae/Portfolio/blob/main/Project_Files/317_regulator_design_problem_stensland.pdf)
 - Built and analyzed a DC voltage regulator.
 - **Technologies**: LTspice, Oscilloscope, DMM
@@ -81,24 +90,16 @@ Take a look at the types of projects I’ve worked on so far:
 
 ---
 
-### 🌳 Data Structures and Algorithms Projects
+### 🧰 Other Projects
+Various side projects and scripts that don't quite fit in the other buckets but are fun and useful!
 
 #### 🐾 [Animal Identifier Tree](https://github.com/stenslae/AnimalIdentification)
 - Uses tree structures to guess animals based on traits.
 - **Technologies**: Java
 
-#### 🎬 [Movie Actor Graph](https://github.com/stenslae/MovieActors)
-- Finds shortest path between actors using graphs.
-- **Technologies**: Java
-
 #### ✍️ [Spell Checker](https://github.com/stenslae/SpellCheck)
 - Identifies misspelled words and suggests corrections.
 - **Technologies**: Java, Dynamic Programming, Hash Tables
-
----
-
-### 🧰 Other Projects
-Various side projects and scripts that don't quite fit in the other buckets but are fun and useful!
 
 ---
 
