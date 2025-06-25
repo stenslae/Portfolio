@@ -50,7 +50,7 @@ Take a look at the types of projects I’ve worked on so far:
 
 #### 🔋 [Battery Pack Testing](https://github.com/stenslae/BatteryPackTesting)
 - Monitors voltage drop across a load to compute battery capacity.
-- **Technologies**: C++, LabJack T7, CSV output, LJM, VS Code
+- **Technologies**: C++, LabJack T7, CSV output, LJM
 - **Key Features**:
   - CSV export of voltage data
   - Automated energy calculation (Wh, mAh)
