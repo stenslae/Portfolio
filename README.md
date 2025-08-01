@@ -23,6 +23,8 @@ Take a look at the types of projects I’ve worked on so far:
 
 ### 🧠 Embedded Systems Projects
 
+### 🧠 Embedded Systems Projects
+
 #### 🛠️ [Drill Press Control](https://github.com/stenslae/DrillPressControl)
 - Interfaces a stepper motor with a microcontroller for pressure-aware drilling.
 - **Technologies**: C, MSP430, ADC, UART, I2C, Real-Time Clock
@@ -31,6 +33,15 @@ Take a look at the types of projects I’ve worked on so far:
   - Pressure monitoring with threshold detection
   - Real-time logging via UART
   - Rolling average filtering and safety alarms
+
+#### 🛠️ [Instrument Simulator for REAL Flatsat](https://github.com/stenslae/InstrumentSim)
+- Simulates the REAL cubesat instrument on a Teensy 4.1 for development and testing.
+- **Technologies**: C/C++, Teensy 4.1, UART Serial Communication, CRC-CCITT16
+- **Key Features**:
+  - Processes incoming command packets from the On-Board Computer (OBC).
+  - Verifies data integrity with 16-bit CCITT CRC checksum.
+  - Outputs telemetry packets via serial communication.
+  - Enables robust validation of OBC functionality without an actual instrument.
 
 ---
 
@@ -67,9 +78,9 @@ Take a look at the types of projects I’ve worked on so far:
 
 ### 🔌 Circuit Designs
 
-#### ☢️ [SSD Test Board](https://github.com/stenslae/SSDTestBoard)
+#### ☢️ [3 Input Test Board](https://github.com/stenslae/3InputTestBoard)
 - Designed and assembled a PCB to process signals from a W1 Silicon Strip Detector. Used to characterize the detector.
-- **Technologies**: Altium, Analog Circuit Design, Soldering, LaTeX
+- **Technologies**: Altium, LTSpice Analog Circuit Design, Soldering, LaTeX
 - **Key Features**:
   - Analog filtering and electrical shielding
   - 3 Input Channels with preamplifiers and gaussian shapers
