@@ -23,8 +23,6 @@ Take a look at the types of projects I’ve worked on so far:
 
 ### 🧠 Embedded Systems Projects
 
-### 🧠 Embedded Systems Projects
-
 #### 🛠️ [Drill Press Control](https://github.com/stenslae/DrillPressControl)
 - Interfaces a stepper motor with a microcontroller for pressure-aware drilling.
 - **Technologies**: C, MSP430, ADC, UART, I2C, Real-Time Clock
