@@ -100,15 +100,7 @@ Take a look at the types of projects I’ve worked on so far:
 ---
 
 ### 🧰 Other Projects
-Various side projects and scripts that don't quite fit in the other buckets but are fun and useful!
-
-#### 🐾 [Animal Identifier Tree](https://github.com/stenslae/AnimalIdentification)
-- Uses tree structures to guess animals based on traits.
-- **Technologies**: Java
-
-#### ✍️ [Spell Checker](https://github.com/stenslae/SpellCheck)
-- Identifies misspelled words and suggests corrections.
-- **Technologies**: Java, Dynamic Programming, Hash Tables
+This is where I store any other interesting projects I've done!
 
 ---
 
