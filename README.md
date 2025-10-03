@@ -7,7 +7,7 @@ Welcome to my GitHub! I'm Emma, an Electrical Engineering student with a love fo
 ## 📚 Table of Contents
 
 - [📁 Project Categories](#-project-categories)
-  - [🧠 Embedded Systems](#-embedded-systems-projects)
+  - [🧠 Microcontrollers](#-microcontroller-projects)
   - [💖 FPGAs](#-fpgas-projects)
   - [📊 Data Collection](#-data-collection-projects)
   - [🔌 Circuit Designs](#-circuit-designs)
@@ -21,7 +21,7 @@ Take a look at the types of projects I’ve worked on so far:
 
 ---
 
-### 🧠 Embedded Systems Projects
+### 🧠 Microcontroller Projects
 
 #### 🛠️ [Drill Press Control](https://github.com/stenslae/DrillPressControl)
 - Interfaces a stepper motor with a microcontroller for pressure-aware drilling.
