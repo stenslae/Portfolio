@@ -1,6 +1,6 @@
 # Emma Stensland's Portfolio
 
-Welcome to my GitHub! I'm Emma, an Electrical Engineering student with a love for problem-solving. Here, you'll find a variety of my favorite projects that I have done.
+Welcome to my GitHub! Here, you'll find a variety of my favorite projects that I have done.
 
 ---
 
