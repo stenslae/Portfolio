@@ -80,4 +80,4 @@ Projects emphasizing **analog electronics, data acquisition, and PCB design**.
 Feel free to reach out:  
 
 - 📧 **Email**: [emma@stensland.com](mailto:emma@stensland.com)
-- 
+  
