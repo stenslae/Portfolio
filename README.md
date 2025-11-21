@@ -35,7 +35,7 @@ Projects directly relevant to cybersecurity.
 
 ## ⚡ Embedded Systems
 
-Projects demonstrating **microcontroller and FPGA expertise**.  
+Projects using **microcontrollers and FPGAs**.  
 
 #### 🛠️ [Drill Press Control](https://github.com/stenslae/DrillPressControl)  
 - Microcontroller system for pressure-aware drilling.  
