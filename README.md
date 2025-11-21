@@ -1,110 +1,83 @@
 # Emma Stensland's Portfolio
 
-Welcome to my GitHub! Here, you'll find a variety of my favorite projects that I have done.
+Welcome to my GitHub! This portfolio highlights my favorite projects. Many projects involve low-level hardware/software interaction and data acquisition.  
 
 ---
 
 ## 📚 Table of Contents
 
-- [📁 Project Categories](#-project-categories)
-  - [🧠 Microcontrollers](#-microcontroller-projects)
-  - [💖 FPGAs](#-fpgas-projects)
-  - [📊 Data Collection](#-data-collection-projects)
-  - [🔌 Circuit Designs](#-circuit-designs)
-  - [🧰 Other Projects](#-other-projects)
-- [📬 Contact](#-contact)
+- [🛡️ Security Projects](#-security-projects)  
+- [⚡ Embedded Systems](#-embedded-systems)  
+- [🔌 DAQ & PCB Design](#-daq--pcb-design)  
+- [📬 Contact](#-contact)  
 
 ---
 
-## 📁 Project Categories
-Take a look at the types of projects I’ve worked on so far:
+## 🛡️ Security Projects
+
+Projects directly relevant to cybersecurity.  
+
+#### 🛡️ [TRNG on FPGA](https://github.com/stenslae/FPGA_Security/tree/trng)  *(Coming Soon - 12/10/25)*  
+- True Random Number Generator on FPGA with a userspace program performing AES-128-CBC encryption.  
+- **Technologies**: VHDL, FPGA, NIST STS, OpenSSL, HPS-Fabric interfacing, userspace & driver-level programming  
+- **Key Skills**: entropy sampling, hardware-based security, symmetric encryption
+
+#### 📝 [Client-Server Encryption](https://github.com/stenslae/EncryptedPattern) *(Coming Soon - 12/10/25)*  
+- Simulation of asymmetric signature verification and symmetric encryption in a client-server setup.  
+- **Technologies**: C, Bash, OpenSSL 
+- **Key Skills**: digital signatures, cryptography, TCP sockets  
+
+#### 🎥 [Firmware & Embedded Security Video](https://youtu.be/J5bsz8OYWcQ)  
+- Video essay explaining secure boot, chain of trust, OTA updates, vulnerabilities, and countermeasures.  
+- **Key Skills**: root of trust, multi-stage bootloader verification, local & remote attestation, OTA security practices  
 
 ---
 
-### 🧠 Microcontroller Projects
+## ⚡ Embedded Systems
 
-#### 🛠️ [Drill Press Control](https://github.com/stenslae/DrillPressControl)
-- Interfaces a stepper motor with a microcontroller for pressure-aware drilling.
-- **Technologies**: C, MSP430, ADC, UART, I2C, Real-Time Clock
-- **Key Features**:
-  - Motor actuation
-  - Pressure monitoring with threshold detection
-  - Real-time logging via UART
-  - Rolling average filtering and safety alarms
+Projects demonstrating **microcontroller and FPGA expertise**.  
 
-#### 🛠️ [Instrument Simulator for REAL Flatsat](https://github.com/stenslae/InstrumentSim)
-- Simulates the REAL cubesat instrument on a Teensy 4.1 for development and testing.
-- **Technologies**: C/C++, Teensy 4.1, UART Serial Communication, CRC-CCITT16
-- **Key Features**:
-  - Processes incoming command packets from the On-Board Computer (OBC).
-  - Verifies data integrity with 16-bit CCITT CRC checksum.
-  - Outputs telemetry packets via serial communication.
-  - Enables robust validation of OBC functionality without an actual instrument.
+#### 🛠️ [Drill Press Control](https://github.com/stenslae/DrillPressControl)  
+- Microcontroller system for pressure-aware drilling.  
+- **Technologies**: C, MSP430, ADC, UART, I2C, RTC  
+- **Key Features**: motor actuation, pressure threshold monitoring, real-time UART logging, safety alarms  
 
----
+#### 🛠️ [Instrument Simulator for REAL Flatsat](https://github.com/stenslae/InstrumentSim)  
+- Teensy 4.1 simulator for cubesat instrument telemetry.  
+- **Technologies**: C/C++, Teensy, UART  
+- **Key Features**: command packet processing, telemetry output, robust OBC testing  
 
-### 💖 FPGAs Projects
-
-#### 🧮 [8-Bit Microcomputer](https://github.com/stenslae/8_Bit_Microcomputer)
-- Simulated and implemented a simple 8-bit computer.
-- **Technologies**: VHDL, ModelSim, Quartus, DE10-Lite FPGA
-- **Key Features**:
-  - Custom ALU and instruction set
-  - RAM/ROM and I/O control
-  - Clock/reset logic
+#### 🧮 [8-Bit Microcomputer](https://github.com/stenslae/8_Bit_Microcomputer)  
+- FPGA-based 8-bit computer simulation.  
+- **Technologies**: VHDL, ModelSim, Quartus  
+- **Key Features**: ALU & instruction set, RAM/ROM & I/O control, clock/reset logic  
 
 ---
 
-### 📊 Data Collection Projects
+## 🔌 DAQ & PCB Design
 
-#### 🔋 [Battery Pack Testing](https://github.com/stenslae/BatteryPackTesting)
-- Monitors voltage drop across a load to compute battery capacity.
-- **Technologies**: C++, LabJack T7, CSV output, LJM
-- **Key Features**:
-  - CSV export of voltage data
-  - Automated energy calculation (Wh, mAh)
+Projects emphasizing **analog electronics, data acquisition, and PCB design**.  
 
-#### 📉 [Noise Filtering Demo](https://github.com/stenslae/NoiseFilteringDemo)
-- Demonstrates filtering techniques using a LabJack T7-Pro.
-- **Technologies**: LabVIEW, Lua, MB7569 Ultrasonic Sensor
-- **Key Features**:
-  - Compare raw vs filtered vs thresholded data
-  - Real-time read intervals  
-- 📝 [Full Writeup](https://support.labjack.com/docs/mb7569-maxbotix-ultrasonic-sensor-app-note)
+#### ⚡ High-Speed Detector Data Acquisition *(Coming Soon)*  
+- Multi-channel ADC acquisition system. The full implementation of the 3-Input Test Board  
+- **Technologies**: FPGA, 8-channel simultaneous ADC, custom differential ZCD & peak follower  
+- **Key Features**: multi-board acquisition, throughput calculations, low-latency sampling, analog signal conditioning
 
----
+#### ☢️ [3 Input Test Board](https://github.com/stenslae/3InputTestBoard)  
+- PCB for W1 Silicon Strip Detector characterization.  
+- **Technologies**: Altium, LTSpice, Analog Design, Soldering  
+- **Key Features**: analog filtering, shielding, 3 channels with preamplifiers & Gaussian shapers  
 
-### 🔌 Circuit Designs
-
-#### ☢️ [3 Input Test Board](https://github.com/stenslae/3InputTestBoard)
-- Designed and assembled a PCB to process signals from a W1 Silicon Strip Detector. Used to characterize the detector.
-- **Technologies**: Altium, LTSpice Analog Circuit Design, Soldering, LaTeX
-- **Key Features**:
-  - Analog filtering and electrical shielding
-  - 3 Input Channels with preamplifiers and gaussian shapers
-
-#### 🔧 [Voltage Regulator Design](https://github.com/stenslae/Portfolio/blob/main/Project_Files/317_regulator_design_problem_stensland.pdf)
-- Built and analyzed a DC voltage regulator.
-- **Technologies**: LTspice, Oscilloscope, DMM
-- **Key Features**:
-  - Simulations and real-world measurements
-  - Response to varying loads
-
-#### 📡 [BJT Amplifier Design](https://github.com/stenslae/Portfolio/blob/main/Project_Files/design2_report_stensland%20(2).pdf)
-- Designed a single-stage amplifier using BJT transistors.
-- **Technologies**: LTspice, Circuit Analysis, Oscilloscope
-- **Key Features**:
-  - Frequency response
-  - Simulation-to-lab verification
-
----
-
-### 🧰 Other Projects
-This is where I store any other interesting projects I've done!
+#### 📉 [Noise Filtering Demo](https://github.com/stenslae/NoiseFilteringDemo)  
+- Demonstrates real-time signal filtering with a LabJack T7-Pro.  
+- **Technologies**: LabVIEW, Lua, Ultrasonic Sensor  
+- **Key Features**: compare raw vs filtered data, real-time logging  
 
 ---
 
 ## 📬 Contact
-Feel free to reach out to me for opportunities or questions about my projects:
+
+Feel free to reach out:  
 
 - 📧 **Email**: [emma@stensland.com](mailto:emma@stensland.com)
+- 
