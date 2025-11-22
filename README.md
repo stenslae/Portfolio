@@ -59,9 +59,9 @@ Projects using **microcontrollers and FPGAs**.
 Projects emphasizing **analog electronics, data acquisition, and PCB design**.  
 
 #### ⚡ High-Speed Detector Data Acquisition *(Coming Soon)*  
-- Multi-channel ADC acquisition system. The full implementation of the 3-Input Test Board  
-- **Technologies**: FPGA, 8-channel simultaneous ADC, custom differential ZCD & peak follower  
-- **Key Features**: multi-board acquisition, throughput calculations, low-latency sampling, analog signal conditioning
+- Multi-board backplaned data acquisition system PCBs for the W1 Silicon Strip Detector. The full implementation of the 3-Input Test Board.  
+- **Technologies**: FPGA, 8-channel simultaneous 16-bit delta-sigma ADCs, custom differential ZCD & peak follower  
+- **Key Features**: ~200kHz bandwidth, 20mV-5V dynamic range
 
 #### ☢️ [3 Input Test Board](https://github.com/stenslae/3InputTestBoard)  
 - PCB for W1 Silicon Strip Detector characterization.  
