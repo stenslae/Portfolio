@@ -19,8 +19,8 @@ Projects relevant to cybersecurity.
 
 #### 🔀 [TRNG on FPGA](https://github.com/stenslae/FPGA_Security/tree/trng)
 - True Random Number Generator on FPGA with a userspace program performing AES-128-CBC encryption.  
-- **Technologies**: VHDL, FPGA, NIST STS, OpenSSL, HPS-Fabric interfacing, userspace & driver-level programming  
-- **Key Skills**: entropy sampling, hardware-based security, symmetric encryption
+- **Technologies**: VHDL, FPGA, NIST STS, OpenSSL, HPS-Fabric interfacing, Linux userspace and kernel driver interfacing  
+- **Key Skills**: hardware entropy extraction and statistical validation, hardware-based security, symmetric encryption
 
 #### 🌌 [Pulsar Side-Channel Analysis](https://github.com/stenslae/PulsarSideChannel)
 - Analysis of pulsar-like signals to detect leakage after time-domain scrambling and recover obfuscation seeds via brute-force.
@@ -63,11 +63,6 @@ Projects using analog electronics, data acquisition, and PCB design.
 - PCB for W1 Silicon Strip Detector characterization.  
 - **Technologies**: Altium, LTSpice, Analog Design, Soldering  
 - **Key Features**: analog filtering, shielding, 3 channels with preamplifiers & Gaussian shapers  
-
-#### 📉 [Noise Filtering Demo](https://github.com/stenslae/NoiseFilteringDemo)  
-- Demonstrates real-time signal filtering with a LabJack T7-Pro.  
-- **Technologies**: LabVIEW, Lua, Ultrasonic Sensor  
-- **Key Features**: compare raw vs filtered data, real-time logging  
 
 ---
 
