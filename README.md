@@ -1,6 +1,6 @@
 # Emma Stensland's Portfolio
 
-Welcome to my GitHub! This portfolio highlights my favorite projects. Many projects involve low-level hardware/software interaction and data acquisition.  
+Welcome to my GitHub! This portfolio highlights my favorite projects, and links to documented repositories.
 
 ---
 
@@ -15,14 +15,20 @@ Welcome to my GitHub! This portfolio highlights my favorite projects. Many proje
 
 ## 🛡️ Security Projects
 
-Projects directly relevant to cybersecurity.  
+Projects relevant to cybersecurity.  
 
-#### 🛡️ [TRNG on FPGA](https://github.com/stenslae/FPGA_Security/tree/trng)  *(Coming Soon - 12/10/25)*  
+#### 🔀 [TRNG on FPGA](https://github.com/stenslae/FPGA_Security/tree/trng)
 - True Random Number Generator on FPGA with a userspace program performing AES-128-CBC encryption.  
 - **Technologies**: VHDL, FPGA, NIST STS, OpenSSL, HPS-Fabric interfacing, userspace & driver-level programming  
 - **Key Skills**: entropy sampling, hardware-based security, symmetric encryption
 
-#### 📝 [Client-Server Encryption](https://github.com/stenslae/EncryptedPattern) *(Coming Soon - 12/10/25)*  
+#### 🌌 [Pulsar Side-Channel Analysis](https://github.com/stenslae/PulsarSideChannel)
+- Analysis of pulsar-like signals to detect leakage after time-domain scrambling and recover obfuscation seeds via brute-force.
+- **Technologies:** MATLAB/Octave, signal processing, Fourier & Hilbert transforms, PRNG-based scrambling
+- **Key Skills:** side-channel analysis, spectral fingerprinting, envelope detection, brute-force seed recovery, SNR/noise handling
+- **[Full Report](https://github.com/stenslae/PulsarSideChannel/blob/main/pulsar_report.md)**
+
+#### 📝 [Client-Server Encryption](https://github.com/stenslae/EncryptedPattern)
 - Simulation of asymmetric signature verification and symmetric encryption in a client-server setup.  
 - **Technologies**: C, Bash, OpenSSL 
 - **Key Skills**: digital signatures, cryptography, TCP sockets  
@@ -35,28 +41,18 @@ Projects directly relevant to cybersecurity.
 
 ## ⚡ Embedded Systems
 
-Projects using **microcontrollers and FPGAs**.  
-
-#### 🛠️ [Drill Press Control](https://github.com/stenslae/DrillPressControl)  
-- Microcontroller system for pressure-aware drilling.  
-- **Technologies**: C, MSP430, ADC, UART, I2C, RTC  
-- **Key Features**: motor actuation, pressure threshold monitoring, real-time UART logging, safety alarms  
+Projects using microcontrollers and FPGAs.
 
 #### 🛠️ [Instrument Simulator for REAL Flatsat](https://github.com/stenslae/InstrumentSim)  
 - Teensy 4.1 simulator for cubesat instrument telemetry.  
 - **Technologies**: C/C++, Teensy, UART  
 - **Key Features**: command packet processing, telemetry output, robust OBC testing  
 
-#### 🧮 [8-Bit Microcomputer](https://github.com/stenslae/8_Bit_Microcomputer)  
-- FPGA-based 8-bit computer simulation.  
-- **Technologies**: VHDL, ModelSim, Quartus  
-- **Key Features**: ALU & instruction set, RAM/ROM & I/O control, clock/reset logic  
-
 ---
 
 ## 🔌 DAQ & PCB Design
 
-Projects emphasizing **analog electronics, data acquisition, and PCB design**.  
+Projects using analog electronics, data acquisition, and PCB design.  
 
 #### ⚡ High-Speed Detector Data Acquisition *(Coming Soon)*  
 - Multi-board backplaned data acquisition system PCBs for the W1 Silicon Strip Detector. The full implementation of the 3-Input Test Board.  
