@@ -62,7 +62,8 @@ Projects using analog electronics, data acquisition, and PCB design.
 #### ☢️ [3 Input Test Board](https://github.com/stenslae/3InputTestBoard)  
 - PCB for W1 Silicon Strip Detector characterization.  
 - **Technologies**: Altium, LTSpice, Analog Design, Soldering  
-- **Key Features**: analog filtering, shielding, 3 channels with preamplifiers & Gaussian shapers  
+- **Key Features**: analog filtering, shielding, 3 channels with preamplifiers & Gaussian shapers
+- **[Full Report](https://github.com/stenslae/3InputTestBoard/blob/main/Docs/quackems_test_board_operation.pdf)**
 
 ---
 
