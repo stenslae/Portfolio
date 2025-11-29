@@ -8,7 +8,8 @@ Welcome to my GitHub! This portfolio highlights my favorite projects, and links 
 
 - [🛡️ Security Projects](#-security-projects)  
 - [⚡ Embedded Systems](#-embedded-systems)  
-- [🔌 DAQ & PCB Design](#-daq--pcb-design)  
+- [🔌 DAQ & PCB Design](#-daq--pcb-design)
+- [💥 Other](#-other)
 - [📬 Contact](#-contact)  
 
 ---
@@ -32,10 +33,6 @@ Projects relevant to cybersecurity.
 - Simulation of asymmetric signature verification and symmetric encryption in a client-server setup.  
 - **Technologies**: C, Bash, OpenSSL 
 - **Key Skills**: digital signatures, cryptography, TCP sockets  
-
-#### 🎥 [Firmware & Embedded Security Video](https://youtu.be/J5bsz8OYWcQ)  
-- Video essay explaining secure boot, chain of trust, OTA updates, vulnerabilities, and countermeasures.  
-- **Key Skills**: root of trust, multi-stage bootloader verification, local & remote attestation, OTA security practices  
 
 ---
 
@@ -64,6 +61,14 @@ Projects using analog electronics, data acquisition, and PCB design.
 - **Technologies**: Altium, LTSpice, Analog Design, Soldering  
 - **Key Features**: analog filtering, shielding, 3 channels with preamplifiers & Gaussian shapers
 - **[Full Report](https://github.com/stenslae/3InputTestBoard/blob/main/Docs/quackems_test_board_operation.pdf)**
+
+---
+
+## 💥 Other
+
+#### 🎥 [Firmware & Embedded Security Video](https://youtu.be/J5bsz8OYWcQ)  
+- Video essay explaining secure boot, chain of trust, OTA updates, vulnerabilities, and countermeasures.  
+- **Key Skills**: root of trust, multi-stage bootloader verification, local & remote attestation, OTA security practices  
 
 ---
 
