@@ -19,8 +19,8 @@ Welcome to my GitHub! This portfolio highlights my favorite projects, and links 
 Projects relevant to cybersecurity.  
 
 #### 🔀 [TRNG on FPGA](https://github.com/stenslae/FPGA_TRNG)
-- True Random Number Generator on FPGA with a userspace program performing AES-128-CBC encryption.  
-- **Technologies**: VHDL, FPGA, NIST STS, OpenSSL, HPS-Fabric interfacing, Linux userspace and kernel driver interfacing  
+- Custom True Random Number Generator IP Core on an FPGA.  
+- **Technologies**: VHDL, FPGA, NIST STS, MUROs, Von Neumman Correction, LFSR Whitening, HPS-Fabric interfacing, Linux userspace and kernel driver interfacing  
 - **Key Skills**: hardware entropy extraction and statistical validation, hardware-based security, symmetric encryption
 
 #### 🌌 [Pulsar Side-Channel Analysis](https://github.com/stenslae/PulsarSideChannel)
