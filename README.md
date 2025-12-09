@@ -29,12 +29,7 @@ Projects relevant to cybersecurity.
 - **Technologies:** MATLAB/Octave, signal processing, Fourier & Hilbert transforms, PRNG-based scrambling
 - **Key Skills:** side-channel analysis, spectral fingerprinting, envelope detection, brute-force seed recovery, SNR/noise handling
 - **[Full Report](https://github.com/stenslae/PulsarSideChannel/blob/main/pulsar_report.md)**
-
-#### 📝 [Client-Server Encryption](https://github.com/stenslae/EncryptedPattern)
-- Simulation of asymmetric signature verification and symmetric encryption in a client-server setup.  
-- **Technologies**: C, Bash, OpenSSL 
-- **Key Skills**: digital signatures, cryptography, TCP sockets  
-
+  
 ---
 
 ## ⚡ Embedded Systems
