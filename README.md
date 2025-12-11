@@ -7,9 +7,9 @@ Welcome! This portfolio highlights my favorite projects, with links to repositor
 ## 📚 Table of Contents
 
 - [🛡️ Security Projects](#-security-projects)  
-* [⚡ Hardware Systems](#-hardware-systems)
-* [💥 Other Projects & Media](#-other-projects--media)
-* [📬 Contact](#-contact)
+- [⚡ Hardware Systems](#-hardware-systems)
+- [💥 Other Projects & Media](#-other-projects--media)
+- [📬 Contact](#-contact)
 
 ---
 
@@ -19,10 +19,10 @@ Welcome! This portfolio highlights my favorite projects, with links to repositor
 
 Custom True Random Number Generator implemented on an SoC FPGA.
 
-* **Technologies:** VHDL, MURO ring oscillators, Von Neumann correction, LFSR whitening, Linux userspace & kernel drivers, NIST STS validation
-* **Skills:** hardware entropy extraction, cryptographically secure design, statistical validation
-* **Results:** Produced a fully validated TRNG IP core with provable statistical randomness
-* **[Full Report](https://github.com/stenslae/FPGA_TRNG/blob/main/docs/trng.md)**
+- **Technologies:** VHDL, MURO ring oscillators, Von Neumann correction, LFSR whitening, Linux userspace & kernel drivers, NIST STS validation
+- **Skills:** hardware entropy extraction, cryptographically secure design, statistical validation
+- **Results:** Produced a fully validated TRNG IP core with provable statistical randomness
+- **[Full Report](https://github.com/stenslae/FPGA_TRNG/blob/main/docs/trng.md)**
 
 **System Diagram:**
 
@@ -32,10 +32,10 @@ Custom True Random Number Generator implemented on an SoC FPGA.
 
 Simulated EM side-channel attacks on pulsar-like signals, including scrambling, leakage analysis, & seed recovery.
 
-* **Technologies:** MATLAB/Octave, Fourier & Hilbert transforms, PRNG-based scrambling, signal processing
-* **Skills:** side-channel analysis, spectral fingerprinting, envelope detection, brute-force seed recovery, SNR/noise handling
-* **Results:** Demonstrated effective seed recovery under varied noise conditions and analyzed leakage metrics
-* **[Full Report](https://github.com/stenslae/PulsarSideChannel/blob/main/pulsar_report.md)**
+- **Technologies:** MATLAB/Octave, Fourier & Hilbert transforms, PRNG-based scrambling, signal processing
+- **Skills:** side-channel analysis, spectral fingerprinting, envelope detection, brute-force seed recovery, SNR/noise handling
+- **Results:** Demonstrated effective seed recovery under varied noise conditions and analyzed leakage metrics
+- **[Full Report](https://github.com/stenslae/PulsarSideChannel/blob/main/pulsar_report.md)**
   
 ---
 
@@ -45,10 +45,10 @@ Simulated EM side-channel attacks on pulsar-like signals, including scrambling, 
 
 Analog PCB for silicon strip detector readout and characterization.
 
-* **Technologies:** Altium, LTSpice, Analog Circuit Design, Soldering
-* **Skills:** analog filtering, shielding
-* **Impact:** Successfully routed 3-channel analog front-end and made a usage guide for live radiation testing
-* **[Full Report](https://github.com/stenslae/3InputTestBoard/blob/main/Docs/quackems_test_board_operation.pdf)**
+- **Technologies:** Altium, LTSpice, Analog Circuit Design, Soldering
+- **Skills:** analog filtering, shielding
+- **Impact:** Successfully routed 3-channel analog front-end and made a usage guide for live radiation testing
+- **[Full Report](https://github.com/stenslae/3InputTestBoard/blob/main/Docs/quackems_test_board_operation.pdf)**
 
 **Board Image:**
 
