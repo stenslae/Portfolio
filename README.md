@@ -1,70 +1,90 @@
 # Emma Stensland's Portfolio
 
-Welcome to my GitHub! This portfolio highlights my favorite projects, and links to documented repositories.
+Welcome! This portfolio highlights my favorite projects, with links to repositories and detailed reports.
 
 ---
 
 ## 📚 Table of Contents
 
 - [🛡️ Security Projects](#-security-projects)  
-- [⚡ Embedded Systems](#-embedded-systems)  
-- [🔌 DAQ & PCB Design](#-daq--pcb-design)
-- [💥 Other](#-other)
-- [📬 Contact](#-contact)  
+* [⚡ Hardware Systems](#-hardware-systems)
+* [💥 Other Projects & Media](#-other-projects--media)
+* [📬 Contact](#-contact)
 
 ---
 
 ## 🛡️ Security Projects
 
-Projects relevant to cybersecurity.  
+### 🔀 [TRNG on FPGA](https://github.com/stenslae/FPGA_TRNG)
 
-#### 🔀 [TRNG on FPGA](https://github.com/stenslae/FPGA_TRNG)
-- Custom True Random Number Generator IP Core on an FPGA.  
-- **Technologies**: VHDL, FPGA, NIST STS, MUROs, Von Neumman Correction, LFSR Whitening, HPS-Fabric interfacing, Linux userspace and kernel driver interfacing  
-- **Key Skills**: hardware entropy extraction and statistical validation, hardware-based security, symmetric encryption
-- **[Full Report](https://github.com/stenslae/FPGA_TRNG/blob/main/docs/trng.md)**
+Custom True Random Number Generator implemented on an SoC FPGA.
 
-#### 🌌 [Pulsar Side-Channel Analysis](https://github.com/stenslae/PulsarSideChannel)
-- Analysis of pulsar-like signals to detect leakage after time-domain scrambling and recover obfuscation seeds via brute-force.
-- **Technologies:** MATLAB/Octave, signal processing, Fourier & Hilbert transforms, PRNG-based scrambling
-- **Key Skills:** side-channel analysis, spectral fingerprinting, envelope detection, brute-force seed recovery, SNR/noise handling
-- **[Full Report](https://github.com/stenslae/PulsarSideChannel/blob/main/pulsar_report.md)**
+* **Technologies:** VHDL, MURO ring oscillators, Von Neumann correction, LFSR whitening, Linux userspace & kernel drivers, NIST STS validation
+* **Skills:** hardware entropy extraction, cryptographically secure design, statistical validation
+* **Results:** Produced a fully validated TRNG IP core with provable statistical randomness
+* **[Full Report](https://github.com/stenslae/FPGA_TRNG/blob/main/docs/trng.md)**
+
+**System Diagram:**
+
+![TRNG System Diagram](assets/TRNG_DIAGRAM.png)
+
+### 🌌 [Pulsar Side-Channel Analysis](https://github.com/stenslae/PulsarSideChannel)
+
+Simulated EM side-channel attacks on pulsar-like signals, including scrambling, leakage analysis, & seed recovery.
+
+* **Technologies:** MATLAB/Octave, Fourier & Hilbert transforms, PRNG-based scrambling, signal processing
+* **Skills:** side-channel analysis, spectral fingerprinting, envelope detection, brute-force seed recovery, SNR/noise handling
+* **Results:** Demonstrated effective seed recovery under varied noise conditions and analyzed leakage metrics
+* **[Full Report](https://github.com/stenslae/PulsarSideChannel/blob/main/pulsar_report.md)**
   
 ---
 
-## ⚡ Embedded Systems
+## 🔌 Hardware Systems
 
-Projects using microcontrollers and FPGAs.
+### ☢️ [3 Input Test Board](https://github.com/stenslae/3InputTestBoard)
 
-#### 🛠️ [Instrument Simulator for REAL Flatsat](https://github.com/stenslae/InstrumentSim)  
+Analog PCB for silicon strip detector readout and characterization.
+
+* **Technologies:** Altium, LTSpice, Analog Circuit Design, Soldering
+* **Skills:** analog filtering, shielding
+* **Impact:** Successfully routed 3-channel analog front-end and made a usage guide for live radiation testing
+* **[Full Report](https://github.com/stenslae/3InputTestBoard/blob/main/Docs/quackems_test_board_operation.pdf)**
+
+**Board Image:**
+
+![Test Altium Layout](assets/QUACK_TEST.png)
+
+### 🛠️ [Instrument Simulator for REAL Flatsat](https://github.com/stenslae/InstrumentSim)  
 - Teensy 4.1 simulator for cubesat instrument telemetry.  
 - **Technologies**: C/C++, Teensy, UART  
-- **Key Features**: command packet processing, telemetry output, robust OBC testing  
+- **Key Features**: command packet processing (CCSDS), CRC-16, telemetry output, robust OBC testing
+- **Results:** Enables hardware-in-the-loop testing
+
+### ⚡ Detector Data Acquisition *(Coming Soon)*
+
+Multi-board DAQ system for silicon strip detectors on a potential cubesat instrument.
+
+- **Technologies:** FPGA, 8-channel 16-bit ADCs, custom differential ZCD & peak follower
+- **Skills:** high-speed analog design, synchronized data acquisition
+- **Results:** 200 kHz bandwidth, 20 mV–5 V dynamic range
+
+**Top Level Analog Schematic:**
+
+![Top Level](assets/QUACK_DAQ.png)
+
+**Analog Signal Processing Schematic:**
+
+![Analog Signal Processing](assets/QUACK_DAQ_B.png)
 
 ---
 
-## 🔌 DAQ & PCB Design
+## 💥 Other Projects & Media
 
-Projects using analog electronics, data acquisition, and PCB design.  
+### 🎥 [Firmware & Embedded Security Video](https://youtu.be/J5bsz8OYWcQ)
 
-#### ⚡ High-Speed Detector Data Acquisition *(Coming Soon)*  
-- Multi-board backplaned data acquisition system PCBs for the W1 Silicon Strip Detector. The full implementation of the 3-Input Test Board.  
-- **Technologies**: FPGA, 8-channel simultaneous 16-bit delta-sigma ADCs, custom differential ZCD & peak follower  
-- **Key Features**: ~200kHz bandwidth, 20mV-5V dynamic range
+Video essay explaining firmware/embedded security topics.
 
-#### ☢️ [3 Input Test Board](https://github.com/stenslae/3InputTestBoard)  
-- PCB for W1 Silicon Strip Detector characterization.  
-- **Technologies**: Altium, LTSpice, Analog Design, Soldering  
-- **Key Features**: analog filtering, shielding, 3 channels with preamplifiers & Gaussian shapers
-- **[Full Report](https://github.com/stenslae/3InputTestBoard/blob/main/Docs/quackems_test_board_operation.pdf)**
-
----
-
-## 💥 Other
-
-#### 🎥 [Firmware & Embedded Security Video](https://youtu.be/J5bsz8OYWcQ)  
-- Video essay explaining secure boot, chain of trust, OTA updates, vulnerabilities, and countermeasures.  
-- **Key Skills**: root of trust, multi-stage bootloader verification, local & remote attestation, OTA security practices  
+- **Skills:** hardware root of trust, multi-stage boot verification, local & remote attestation, OTA security practices
 
 ---
 
@@ -73,4 +93,3 @@ Projects using analog electronics, data acquisition, and PCB design.
 Feel free to reach out:  
 
 - 📧 **Email**: [emma@stensland.com](mailto:emma@stensland.com)
-  
