@@ -96,7 +96,7 @@ Work in progress multi-board DAQ system for silicon strip detectors on a potenti
 ## ⚙️ Industrial Systems Projects 
 
 ### 💥 [PERA Threat Report](https://github.com/stenslae/SecurityWriteups/blob/main/Notes_And_Reports/ICS/pera.md)
-Report breaking down the Purdue Enterprise Reference Architecture (PERA) model, focusing on identifying vulnerabilities and mitigations within each of its layers.
+This report explains how the Purdue Enterprise Reference Architecture (PERA) model works, then maps key vulnerabilities and mitigations at each layer. Additional models, real-life exploits, network access control, and IIoT communication protocols are discussed.
 - **Skills:** threat modeling, risk analysis, enterprise attack examples, CIA triad, systems & controls, IT/OT convergence
   
 ---
