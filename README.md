@@ -24,7 +24,7 @@ Welcome! This portfolio organizes my favorite projects by their most relevant ap
 
 ## 🛡️ Embedded Systems Projects
 
-### 🔀 [TRNG on FPGA](https://github.com/stenslae/FPGA_TRNG)
+### 🔀 [TRNG on FPGA](https://github.com/stenslae/FPGA-TRNG)
 Custom True Random Number Generator implemented on an SoC FPGA.
 - **Technologies:** VHDL, MURO ring oscillators, Von Neumann correction, LFSR whitening, Linux userspace & kernel drivers, NIST STS validation
 - **Skills:** hardware entropy extraction, cryptographically secure design, statistical validation
@@ -47,7 +47,7 @@ This video essay dives into firmware/embedded security topics.
 
 ## 🖥️ Low-Level Software Systems
 
-### 📱 [Encrypted Patterns](#-encrypted-patterns)
+### 📱 [Encrypted Patterns](https://github.com/stenslae/EncryptedPattern)
 TCP based polling server demo that uses symmetric and asymmetric encryption and vulnerability exploration in networked applications.
 - **Technologies:** C, OpenSSL, TCP sockets, AES, EC keys, getopt
 - **Skills:** Encryption (AES, EC), TCP client-server communication, vulnerability analysis, denial-of-service (DoS) attacks
@@ -64,7 +64,7 @@ Simulated EM side-channel attacks on pulsar-like signals, including scrambling, 
 - **Results:** Demonstrated effective seed recovery under varied noise conditions and analyzed leakage metrics
 - **[Full Report](https://github.com/stenslae/PulsarSideChannel/blob/main/pulsar_report.md)**
 
-### ☢️ [SSD Characterization Board](https://github.com/stenslae/3InputTestBoard)
+### ☢️ [SSD Characterization Board](https://github.com/stenslae/SSD-CharacterizationBoard)
 Analog PCB for silicon strip detector readout and characterization.
 - **Technologies:** Altium, LTSpice, Analog Circuit Design, Soldering
 - **Skills:** analog filtering, shielding
