@@ -1,6 +1,6 @@
 # Emma Stensland's Portfolio
 
-Welcome! I'm an Electrical Engineering student who likes walking the line between hardware and software with security applications. This portfolio organizes my favorite projects by their most relevant application: embedded, software, hardware, or industrial. Each repository for the project includes source code and relevant documentation.
+Welcome! This portfolio organizes my favorite projects by their most relevant application: embedded, software, or hardware. Each repository for the project includes source code and relevant documentation.
 
 ---
 
@@ -16,8 +16,8 @@ Welcome! I'm an Electrical Engineering student who likes walking the line betwee
   - [Pulsar Side Channel Analysis](#-pulsar-side-channel-analysis)
   - [Silicon Strip Detector Characterization Board](#-ssd-characterization-board)
   - [Silicon Strip Detector Data Acquisition System](#-ssd-data-aquisition-system)
-- [⚙️ Industrial Systems](#-industrial-systems-projects)
-  - [PERA Threat Report](#-pera-threat-report)
+- [⚙️ Other Projects](#-other-projects)
+  - [Industrial Control Systems Security Report](#-ics-security-report)
 - [📬 Contact](#-contact)
 
 ---
@@ -30,8 +30,6 @@ Custom True Random Number Generator implemented on an SoC FPGA.
 - **Skills:** hardware entropy extraction, cryptographically secure design, statistical validation
 - **Results:** Produced a fully validated TRNG IP core with provable statistical randomness
 - **[Full Report](https://github.com/stenslae/FPGA_TRNG/blob/main/docs/trng.md)**
-
-**System Diagram:**
 
 ![TRNG System Diagram](assets/TRNG_DIAGRAM.png)
 
@@ -52,7 +50,7 @@ This video essay dives into firmware/embedded security topics.
 ### 📱 [Encrypted Patterns](#-encrypted-patterns)
 TCP based polling server demo that uses symmetric and asymmetric encryption and vulnerability exploration in networked applications.
 - **Technologies:** C, OpenSSL, TCP sockets, AES, EC keys, getopt
-- **Skills:** Encryption (AES, EC), TCP client-server communication, vulnerability analysis, denial-of-service (DoS) attacks, spoofing attacks
+- **Skills:** Encryption (AES, EC), TCP client-server communication, vulnerability analysis, denial-of-service (DoS) attacks
 - **Results:** Explored and demonstrated multiple vulnerabilities caused by poor client-server design, with mitigation suggestions.
 
 ---
@@ -73,32 +71,26 @@ Analog PCB for silicon strip detector readout and characterization.
 - **Results:** Successfully routed 3-channel analog front-end and made a usage guide for live radiation testing
 - **[Full Report](https://github.com/stenslae/3InputTestBoard/blob/main/Docs/quackems_test_board_operation.pdf)**
 
-**Board Image:**
-
 ![Test Altium Layout](assets/QUACK_TEST.png)
 
 ### ⚡ SSD Data Acquisition System
-Work in progress multi-board DAQ system for silicon strip detectors on a potential cubesat instrument.
+Work in progress multi-board system for data acquisition and processing to do advanced silicon strip detector characterization and prototype a CubeSat instrument.
 - **Technologies:** FPGA, 8-channel 16-bit ADCs, custom differential ZCD & peak follower
 - **Skills:** high-speed analog design, synchronized data acquisition
-- **Results:** 200 kHz bandwidth, 20 mV–5 V dynamic range
-
-**Top Level Analog Schematic:**
+- **Results:** ~200kHz bandwidth, 20mV–5V dynamic range
 
 ![Top Level](assets/QUACK_DAQ.png)
-
-**Analog Signal Processing Schematic:**
 
 ![Analog Signal Processing](assets/QUACK_DAQ_B.png)
 
 ---
 
-## ⚙️ Industrial Systems Projects 
+## ⚙️ Other Projects 
 
-### 💥 [PERA Threat Report](https://github.com/stenslae/SecurityWriteups/blob/main/Notes_And_Reports/ICS/pera.md)
-This report explains how the Purdue Enterprise Reference Architecture (PERA) model works, then maps key vulnerabilities and mitigations at each layer. Additional models, real-life exploits, network access control, and IIoT communication protocols are discussed.
+### 💥 [ICS Security Report](https://github.com/stenslae/SecurityWriteups/blob/main/Notes_And_Reports/ICS/pera.md)
+This report explains how the Purdue Enterprise Reference Architecture (PERA) model works, then maps key vulnerabilities and mitigations at each layer. Additional models, real-life exploits, and network access control are discussed.
 - **Skills:** threat modeling, risk analysis, enterprise attack examples, CIA triad, systems & controls, IT/OT convergence
-  
+
 ---
 
 ## 📬 Contact
