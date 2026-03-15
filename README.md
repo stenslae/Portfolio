@@ -1,11 +1,14 @@
 # Emma Stensland's Portfolio
 
+<!---- UNDER CONSTRUCTION ----
 ## [TRNG on FPGA](https://github.com/stenslae/FPGA-TRNG)
 - **Technologies:** VHDL, MURO ring oscillators, Von Neumann correction, LFSR whitening, Linux userspace & kernel drivers, NIST STS validation
 - **Skills:** hardware entropy extraction, cryptographically secure design, statistical validation
 - **[Full Report](https://github.com/stenslae/FPGA_TRNG/blob/main/docs/trng.md)**
 
+  
 ![TRNG System Diagram](assets/TRNG_DIAGRAM.png)
+---->
 
 ## [Pulsar Side-Channel Analysis](https://github.com/stenslae/PulsarSideChannel)
 - **Technologies:** MATLAB/Octave, Fourier & Hilbert transforms, PRNG-based scrambling, signal processing
