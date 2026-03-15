@@ -12,14 +12,6 @@
 - **Skills:** side-channel analysis, spectral fingerprinting, envelope detection, brute-force seed recovery, SNR/noise handling
 - **[Full Report](https://github.com/stenslae/PulsarSideChannel/blob/main/pulsar_report.md)**
 
-## SSD Data Acquisition System
-- **Technologies:** FPGA, 8-channel 16-bit ADCs, PCB design, custom differential ZCD & peak follower
-- **Skills:** high-speed analog design, data acquisition
-
-![Top Level](assets/QUACK_DAQ.png)
-
-![Analog Signal Processing](assets/QUACK_DAQ_B.png)
-
 ---
 
 ## 📬 Contact
